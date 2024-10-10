@@ -1,0 +1,50 @@
+/* File: css/style.css */
+
+/* Gaya untuk modal */
+.modal-content {
+    border-radius: 10px; /* Sudut melengkung */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Bayangan */
+}
+
+/* Gaya untuk video dalam modal */
+#video {
+    border: 1px solid #ddd; /* Border untuk video */
+    border-radius: 10px; /* Sudut melengkung */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Bayangan */
+    width: 100%; /* Lebar penuh */
+}
+
+/* Gaya untuk gambar yang ditangkap */
+#capturedImage {
+    margin-top: 20px; /* Jarak atas */
+    border: 1px solid #ddd; /* Border untuk gambar */
+    border-radius: 10px; /* Sudut melengkung */
+    width: 100%; /* Lebar penuh */
+    height: auto; /* Menjaga rasio aspek */
+}
+
+/* Gaya untuk tombol Capture */
+#captureButton {
+    margin-top: 10px; /* Jarak atas */
+    width: 100%; /* Lebar penuh */
+    background-color: #007bff; /* Warna tombol */
+    border: none; /* Tanpa border */
+    color: white; /* Warna teks putih */
+    border-radius: 5px; /* Sudut melengkung */
+}
+
+/* Hover effect untuk tombol */
+#captureButton:hover {
+    background-color: #0056b3; /* Warna saat hover */
+    cursor: pointer; /* Kursor pointer */
+}
+
+/* Gaya untuk tampilan form */
+.form-label {
+    font-weight: bold; /* Menebalkan label */
+}
+
+/* Responsif untuk modal */
+.modal-lg {
+    max-width: 90%; /* Lebar maksimum modal */
+}
